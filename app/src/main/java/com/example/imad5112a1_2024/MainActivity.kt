@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                 if(numberValue < 10){
                     result = "Please enter a number higher than 10"
                 } else if(10 < numberValue && numberValue <= 15) {
-                    result = "Anne Frank – Diarist during the Holocaust (died at 15)"
+                    result = getString(R.string.from10To15)
                 } else if(15 < numberValue && numberValue <= 20) {
                     result = "Joan of Arc – French heroine and martyr (died at 19)"
                 } else if(20 < numberValue && numberValue <= 25) {
